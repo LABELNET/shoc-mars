@@ -1,0 +1,50 @@
+Chose device: name='Device 7801' index=0
+Running single precision test
+Initializing test problem (this can take several minutes for large problems)
+[13:06:13.930][HCR][E]hc_memory.cpp            :90  : ASSERT: size <= (memObj->size() - offset) getMemoryObjectWithOffset
+
+  10% done
+  20% done
+  30% done
+  40% done
+  50% done
+  60% done
+  70% done
+  80% done
+  90% done
+  100% done
+Finished.
+1570334 of 1572864 pairs within cutoff distance = 99.8391 %
+Performing Correctness Check (can take several minutes)
+Test Passed
+Running double precision test
+Initializing test problem (this can take several minutes for large problems)
+  10% done
+  20% done
+  30% done
+  40% done
+  50% done
+  60% done
+  70% done
+  80% done
+  90% done
+  100% done
+Finished.
+1570334 of 1572864 pairs within cutoff distance = 99.8391 %
+Performing Correctness Check (can take several minutes)
+Test Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+MD-LJ	12288_atoms	GFLOPS	155.389	155.097	1.04865	152.539	156.427	152.539	156.048	154.366	155.859	154.551	155.296	155.483	156.427	154.923	155.483	
+MD-LJ-Bandwidth	12288_atoms	GB/s	119.204	118.98	0.804452	117.018	120	117.018	119.709	118.419	119.565	118.561	119.133	119.276	120	118.846	119.276	
+MD-LJ-Bandwidth_PCIe	12288_atoms	GB/s	40.7165	40.6899	0.0945876	40.4583	40.8089	40.4583	40.7753	40.6245	40.7585	40.6412	40.7081	40.7249	40.8089	40.6746	40.7249	
+MD-LJ-DP	12288_atoms	GFLOPS	104.074	103.995	0.722886	102.298	105.221	102.298	104.453	103.614	104.538	104.032	105.221	104.116	104.2	103.697	103.781	
+MD-LJ-DP-Bandwidth	12288_atoms	GB/s	139.834	139.728	0.97127	137.448	141.375	137.448	140.344	139.216	140.458	139.777	141.375	139.89	140.003	139.328	139.44	
+MD-LJ-DP-Bandwidth_PCIe	12288_atoms	GB/s	69.5938	69.5667	0.241415	68.9976	69.9734	68.9976	69.7198	69.4403	69.7479	69.5798	69.9734	69.6078	69.6357	69.4681	69.496	
+MD-LJ-DP_PCIe	12288_atoms	GFLOPS	51.7965	51.7763	0.179678	51.3528	52.079	51.3528	51.8903	51.6822	51.9112	51.7861	52.079	51.8069	51.8277	51.703	51.7237	
+MD-LJ-DP_Parity	12288_atoms	N	1.00929	1.00852	0.00701039	0.992063	1.02041	0.992063	1.01297	1.00482	1.01379	1.00888	1.02041	1.00969	1.01051	1.00563	1.00644	
+MD-LJ_PCIe	12288_atoms	GFLOPS	53.0762	53.0415	0.1233	52.7396	53.1967	52.7396	53.1528	52.9563	53.1309	52.978	53.0653	53.0871	53.1967	53.0216	53.0871	
+MD-LJ_Parity	12288_atoms	N	1.92767	1.92404	0.0130089	1.89231	1.94053	1.89231	1.93584	1.91497	1.93349	1.91727	1.92651	1.92883	1.94053	1.92187	1.92883	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

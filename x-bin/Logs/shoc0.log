@@ -1,0 +1,20 @@
+--- Welcome To The SHOC Benchmark Suite version 1.1.5 --- 
+Hostname: AI-141 
+Platform selection not specified, default to platform #0
+Number of available platforms: 1 
+Number of available devices on platform 0 : 8
+Device 0: 'Device 7801'
+Device 1: 'Device 7801'
+Device 2: 'Device 7801'
+Device 3: 'Device 7801'
+Device 4: 'Device 7801'
+Device 5: 'Device 7801'
+Device 6: 'Device 7801'
+Device 7: 'Device 7801'
+Specified 1 device IDs: 0
+Using size class: 1
+
+--- Starting Benchmarks ---
+Running benchmark MaxFlops
+    result for maxspflops:                    14865.1000 GFLOPS
+    result for maxdpflops:                    14862.1000 GFLOPS

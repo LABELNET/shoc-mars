@@ -1,0 +1,4 @@
+#!/bin/sh
+
+perl /home/Insight/shoc/libexec/driver.pl -bindir /home/Insight/shoc/bin $*
+

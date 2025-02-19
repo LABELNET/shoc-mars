@@ -1,0 +1,15 @@
+Chose device: name='Device 7801' index=0
+Vertices: 1000
+Edges: 999
+Running Benchmark
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+Verification of GPU results: Passed
+[13:06:12.972][HCR][E]hc_runtime_api.cpp       :839 : 90959: [7f6f6237da00] hcFreeHost: Returned hcErrorInvalidValue

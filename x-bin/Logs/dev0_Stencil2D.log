@@ -1,0 +1,52 @@
+Chose device: name='Device 7801' index=0
+Running single precision test
+
+Performing stencil operation on host for later comparison with CUDA output
+Depending on host capabilities, this may take a while.
+Performing 1 warmup passes...done.
+
+Performing stencil operation on chosen device, 10 passes.
+Depending on chosen device, this may take a while.
+At the end of each pass the number of validation
+errors observed will be printed to the standard output.
+pass 0: 0 validation errors
+pass 1: 0 validation errors
+pass 2: 0 validation errors
+pass 3: 0 validation errors
+pass 4: 0 validation errors
+pass 5: 0 validation errors
+pass 6: 0 validation errors
+pass 7: 0 validation errors
+pass 8: 0 validation errors
+pass 9: 0 validation errors
+
+
+DP supported
+
+Performing stencil operation on host for later comparison with CUDA output
+Depending on host capabilities, this may take a while.
+Performing 1 warmup passes...done.
+
+Performing stencil operation on chosen device, 10 passes.
+Depending on chosen device, this may take a while.
+At the end of each pass the number of validation
+errors observed will be printed to the standard output.
+pass 0: 0 validation errors
+pass 1: 0 validation errors
+pass 2: 0 validation errors
+pass 3: 0 validation errors
+pass 4: 0 validation errors
+pass 5: 0 validation errors
+pass 6: 0 validation errors
+pass 7: 0 validation errors
+pass 8: 0 validation errors
+pass 9: 0 validation errors
+
+
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+DP_Sten2D	1000:512x512:8x256	GFLOPS	119.1	117.734	4.11864	110.637	123.538	123.538	121.368	120.232	120.86	120.501	117.967	116.156	114.057	112.021	110.637	
+SP_Sten2D	1000:512x512:8x256	GFLOPS	129.295	129.375	5.40213	122.21	139.442	139.442	135.617	133.245	130.415	130.206	128.22	128.384	123.109	122.905	122.21	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

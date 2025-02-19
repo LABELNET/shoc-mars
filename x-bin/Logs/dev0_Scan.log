@@ -1,0 +1,40 @@
+Chose device: name='Device 7801' index=0
+Running single precision test
+Initializing host memory.
+Copying data to device.
+Running benchmark with size 262144
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Running double precision test
+Initializing host memory.
+Copying data to device.
+Running benchmark with size 131072
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+Scan	262144items	GB/s	24.5235	24.3637	0.470435	22.9578	24.5919	22.9578	24.4537	24.5551	24.5224	24.5919	24.5384	24.5247	24.4566	24.5488	24.4874	
+Scan-DP	131072items	GB/s	28.6211	28.6224	0.0466363	28.5288	28.6943	28.5934	28.681	28.641	28.6363	28.6543	28.5856	28.5288	28.6058	28.6035	28.6943	
+Scan-DP_PCIe	131072items	GB/s	7.44577	7.44585	0.00315714	7.43951	7.45071	7.44389	7.44981	7.44711	7.4468	7.44801	7.44336	7.43951	7.44473	7.44458	7.45071	
+Scan-DP_Parity	131072items	N	2.84394	2.84407	0.00463403	2.83477	2.85122	2.84119	2.84989	2.84592	2.84545	2.84724	2.84041	2.83477	2.84243	2.84219	2.85122	
+Scan_PCIe	262144items	GB/s	2.6256	2.62366	0.00571662	2.60657	2.62638	2.60657	2.6248	2.62596	2.62559	2.62638	2.62577	2.62561	2.62483	2.62589	2.62519	
+Scan_Parity	262144items	N	8.34015	8.28579	0.159989	7.80768	8.36342	7.80768	8.31642	8.35089	8.33976	8.36342	8.34522	8.34054	8.31739	8.34874	8.32788	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.
